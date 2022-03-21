@@ -40,6 +40,3 @@ This took me a while to understand thus have spent alot of time trying to get my
 All external documentation linked to this project can be found in the documentation folder in main branch. The link to my Jira board for this project is linked bellow.
 
 [Jira Board](https://dylan-patel.atlassian.net/jira/software/projects/AP/boards/5 "Dylan's Archery Project Jira Board")
-# QA-Bootcamp-Archery-Project
-
-dev branch added
