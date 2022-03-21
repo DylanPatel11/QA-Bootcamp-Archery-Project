@@ -36,7 +36,12 @@ Having done a bit of coding through my time doing mathematics at university I be
 
 ## What went well
 Coding each of the packages went smoothly with a few minor errors that have been changed and pushed to GitHub. In addition, the steps to creating the Spring application went well for me. I understood the problems I had when connecting to the H2 database and linking MySQL to my application as shown below:
+
+H2 Database connection:
 ![Local host](https://github.com/DylanPatel11/QA-Bootcamp-Archery-Project/blob/dev/Screenshots/Screenshot%20of%20localhost%20working%20and%20connecting%20to%20MySQL.jpg "H2 database link")
+
+MySQL connection:
+
 ![MySQL connection](https://github.com/DylanPatel11/QA-Bootcamp-Archery-Project/blob/dev/Screenshots/Screenshot%20of%20MySQL%20connecting%20to%20Application%20creating%20tables.jpg "MySQL connection")
 
 My perseverance to understand and push my project correctly although tough at the beginning feeling horrified that I lost all of my work. I have managed to complete a lot of work in the day that I lost 95% of my work. In addition, I understand now what went wrong and how to deal with this problem and the mistakes I made if I have this problem again.
