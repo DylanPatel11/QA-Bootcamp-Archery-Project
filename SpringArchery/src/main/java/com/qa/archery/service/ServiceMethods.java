@@ -18,6 +18,5 @@ public interface ServiceMethods<T> {
 	
 	//Delete
 	boolean delete(long id);
-	
 
 }

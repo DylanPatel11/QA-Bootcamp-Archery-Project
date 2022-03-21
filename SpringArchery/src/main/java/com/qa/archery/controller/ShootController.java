@@ -2,11 +2,13 @@ package com.qa.archery.controller;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,19 +23,21 @@ public class ShootController {
 	
 	private ShootService service;
 	
+	@Autowired
 	private ShootController(ShootService service) {
 		this.service = service;
 	}
 
 	//Create
-	public ResponseEntity<Shoot> createDuck(@RequestBody Shoot shoot) {
+	@PostMapping("/create")
+	public ResponseEntity<Shoot> createShoot(@RequestBody Shoot shoot) {
 		return new ResponseEntity<Shoot>(this.service.create(shoot), HttpStatus.CREATED);
 	}
 	
 	// Read All
 	// We return a list because the readAll method in the service class returns a list also
 	@GetMapping("/readAll")
-	public ResponseEntity<List<Shoot>> readAllDucks() {		
+	public ResponseEntity<List<Shoot>> readAllShoots() {		
 		return new ResponseEntity<List<Shoot>>(this.service.readAll(), HttpStatus.OK);
 	}
 	
@@ -56,7 +60,7 @@ public class ShootController {
 	// Delete
 	// Ternary operator, IF service.delete goes through (deletes the id), return no content, ELSE return not found
 	@DeleteMapping("/delete/{id}")
-	public ResponseEntity<Boolean> deleteShoot(@PathVariable long id) {
+	public ResponseEntity<?> deleteShoot(@PathVariable long id) {
 		return (this.service.delete(id)) ? new ResponseEntity<>(HttpStatus.NO_CONTENT)
 				: new ResponseEntity<>(HttpStatus.NOT_FOUND);
 		}

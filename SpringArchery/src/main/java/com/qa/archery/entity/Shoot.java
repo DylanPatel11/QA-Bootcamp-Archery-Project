@@ -57,9 +57,7 @@ public class Shoot {
 
 
 	//Default constructor
-	public Shoot() {
-		
-	}
+	public Shoot() {}
 
 
 	public Shoot(String dated, @Min(0) @Max(100) int distance, String targetFace, String bowType,
