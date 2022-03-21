@@ -38,6 +38,7 @@ Having done a bit of coding through my time doing mathematics at university I be
 Coding each of the packages went smoothly with a few minor errors that have been changed and pushed to GitHub. In addition, the steps to creating the Spring application went well for me. I understood the problems I had when connecting to the H2 database and linking MySQL to my application as shown below:
 
 H2 Database connection:
+
 ![Local host](https://github.com/DylanPatel11/QA-Bootcamp-Archery-Project/blob/dev/Screenshots/Screenshot%20of%20localhost%20working%20and%20connecting%20to%20MySQL.jpg "H2 database link")
 
 MySQL connection:
