@@ -35,7 +35,10 @@ The bootcamp has taught me a different language (Java) and exposed me to how a p
 Having done a bit of coding through my time doing mathematics at university I believed that I would be able to pick up coding in Java quite easy with a few challenges of understand what each reserved word does and how they are used.
 
 ## What went well
-Coding each of the packages went smoothly with a few minor errors that have been changed and pushed to GitHub.
+Coding each of the packages went smoothly with a few minor errors that have been changed and pushed to GitHub. In addition, the steps to creating the Spring application went well for me. I understood the problems I had when connecting to the H2 database and linking MySQL to my application as shown below:
+![Local host](https://github.com/DylanPatel11/QA-Bootcamp-Archery-Project/blob/dev/Screenshots/Screenshot%20of%20localhost%20working%20and%20connecting%20to%20MySQL.jpg "H2 database link")
+
+
 My perseverance to understand and push my project correctly although tough at the beginning feeling horrified that I lost all of my work. I have managed to complete a lot of work in the day that I lost 95% of my work. In addition, I understand now what went wrong and how to deal with this problem and the mistakes I made if I have this problem again.
 
 ## What didn't go well
@@ -49,6 +52,10 @@ After completing each package and class and finally testing if it connects with 
 I have checked each class with their respected java files and I can not seem to get the 404 error go away. Any idea as to why this is happening would be great to understand so I don’t run into this mistake again.
 
 Below is the error screenshot in Postman:
+
+![Postman not connecting](https://github.com/DylanPatel11/QA-Bootcamp-Archery-Project/blob/dev/Screenshots/Postman%20not%20connecting%20to%20Archery.jpg "Postman not connecting")
+
+
 
 ## How the project could be improved
 Running out of time and loosing my work the day before submission I know given a bit more time, I could find out why postman could not connect to my API that I created. Therefore, I could run testing between Postman and my application. In addition, given the extra time I would run a Mockito test.
