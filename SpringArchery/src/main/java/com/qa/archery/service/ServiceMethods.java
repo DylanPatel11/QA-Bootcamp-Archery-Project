@@ -2,7 +2,7 @@ package com.qa.archery.service;
 
 import java.util.List;
 
-public interface serviceMethods<T> {
+public interface ServiceMethods<T> {
 	
 	//Create
 	T create(T shoot);
